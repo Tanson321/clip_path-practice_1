@@ -1,0 +1,66 @@
+body{
+    margin-top:25vh;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: black;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position:relative;
+    display: flex;
+	justify-content: center;
+	align-self: center;
+    width: 50vh;
+    height: 50vh;
+    background: #fff;
+    animation-name: demo;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+.content h1{
+    color:white;
+}
+
+
+@keyframes demo{
+    0%{
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        background-color: #10bdec;
+    }
+
+    20%{
+        clip-path: polygon(50% 30%, 70% 50%, 50% 70%, 30% 50%);
+    }
+
+    30%{
+        clip-path: polygon(60% 40%, 60% 60%, 40% 60%, 40% 40%);
+        background-color: #fb6494;
+    }
+
+    50%{
+        clip-path: polygon(100% 40%, 100% 60%, 0 60%, 0 40%);
+    }
+
+    85%{
+        clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    }
+
+    100%{
+        clip-path: polygon(100% 50%, 50% 100%, 0% 50%, 50% 0%);
+        background-color: #10bdec;
+    }
+
+}
+
+
+
+
