@@ -33,30 +33,36 @@ body{
 
 @keyframes demo{
     0%{
+        -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-        background-color: #10bdec;
+        background-color: #00DBDE;
     }
 
     20%{
+        -webkit-clip-path: polygon(50% 30%, 70% 50%, 50% 70%, 30% 50%);
         clip-path: polygon(50% 30%, 70% 50%, 50% 70%, 30% 50%);
     }
 
     30%{
+        -webkit-clip-path: polygon(60% 40%, 60% 60%, 40% 60%, 40% 40%);
         clip-path: polygon(60% 40%, 60% 60%, 40% 60%, 40% 40%);
-        background-color: #fb6494;
+        background-color: #FC00FF;
     }
 
     50%{
+        -webkit-clip-path: polygon(100% 40%, 100% 60%, 0 60%, 0 40%);
         clip-path: polygon(100% 40%, 100% 60%, 0 60%, 0 40%);
     }
 
     85%{
+        -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
         clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
     }
 
     100%{
+        -webkit-clip-path: polygon(100% 50%, 50% 100%, 0% 50%, 50% 0%);
         clip-path: polygon(100% 50%, 50% 100%, 0% 50%, 50% 0%);
-        background-color: #10bdec;
+        background-color: #00DBDE;
     }
 
 }
